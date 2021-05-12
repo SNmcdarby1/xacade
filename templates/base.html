@@ -40,7 +40,42 @@
     <title>XACADE { % Block extra_title% }{ %endblock% }</title>
   </head>
   <body>
-   <header class=" container-fluid-top"></header>
+   <header class=" container-fluid-top">
+    <div class="row">
+      <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
+        <a href= "{% url 'home' %}" class="nav-link main-logo-link">
+          <h2 class="logo-font text-black my-0"><strong>XACADE</strong>
+          </h2>
+        
+         </a>
+      </div>
+
+     <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+      <form method="GET" action="">
+        <div class="input-group 200">
+          <input type="text" name="q" placeholder="Search our site" class="form-control border-black rounded-0">
+            <div class="input-group-append">
+              <button class="form-control btn btn-black border-black rounded-0"type="submit">
+                  <span class="icon">
+                    <i class="fas fa-search"></i>
+                  </span>
+              </button>
+            </div>
+
+        </div>
+      </form>
+     </div>
+      <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+        <ul class="list-inline lisy-unstyled text-center text-lg-right my-0">
+         <li class="list-inline-item dropdown">Lorem ipsum</li>
+         <li class="list-inline-item">Phasellus iaculis</li>
+          <li class="list-inline-item">Nulla volutpat</li> 
+          </ul>
+      </div>
+     
+    </div>
+   
+   </header>
 
 
     {% if messages%}
