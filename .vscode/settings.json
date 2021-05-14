@@ -22,4 +22,10 @@
    "files.autoSave": "off",
    "workbench.colorTheme": "Visual Studio Dark",
    "editor.defaultFormatter": "HookyQR.beautify",
+   "python.testing.pytestArgs": [
+      "xacade"
+   ],
+   "python.testing.unittestEnabled": false,
+   "python.testing.nosetestsEnabled": false,
+   "python.testing.pytestEnabled": true,
 }
