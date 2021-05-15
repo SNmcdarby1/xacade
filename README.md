@@ -1,4 +1,4 @@
-## XACADE
+## XACADE FASHIONISTA
 
 ### Descriptio
 
@@ -81,7 +81,7 @@
 ** `cp -r ../.pip-modules/lib/python3.8/site-packages/allauth/templates/* ./templates/allauth/`
 
 ### Wireframe
-[(xacade(conxiatta) project.pdf](https://github.com/SNmcdarby1/xacade/files/6457212/Conxiatta.project.pdf)
+[(xacade(conxiatta) project.pdf](https://github.com/SNmcdarby1/xacade_fashionista/files/6457212/Conxiatta.project.pdf)
 
 
 
