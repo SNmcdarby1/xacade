@@ -23,8 +23,9 @@
     {% block extra_css %}
 
     {% endblock %}
- {% block base.js %}
-   <script src="https://kit.fontawesome.com/8ebbc0802d.js" crossorigin="anonymous"></script>
+ {% block corejs %}
+     <script src="https://kit.fontawesome.com/8ebbc0802d.js" 
+crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/
     Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B
@@ -112,8 +113,8 @@
         <button class="navbar-toggle" type="button" data-toggle="main-nav" aria-control="main-nav"aria-expanded = "false" aria-lable=" Toggle navigation">
               <span class="navbar-toggle-icon"></span>
               </button>
-                 {% include 'includes / mobile-top-header.html' %} %}
-                {% include 'includes/ main-nav.html' %}
+                 {% include 'includes/mobile-top-header.html' %} %}
+                {% include 'includes/main-nav.html' %}
               </nav>
     
     </div>
