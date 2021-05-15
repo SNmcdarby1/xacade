@@ -1,5 +1,5 @@
 """
-WSGI config for xacade project.
+WSGI config for xacade_fashionista project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
