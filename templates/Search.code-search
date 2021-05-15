@@ -1,9 +1,0 @@
-# Query: base.css
-# ContextLines: 1
-
-
-
-templates/base.html:
-  18          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap">
-  19:         <link rel="stylesheet" href="{% static 'css/base.css' %}">  
-  20     
