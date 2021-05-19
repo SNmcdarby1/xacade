@@ -1,1 +1,1 @@
-web: gunicorn xacade_fashionista.wsgi:application
+web: gunicorn xacade.wsgi:application
